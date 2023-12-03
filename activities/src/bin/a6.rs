@@ -10,4 +10,25 @@
 // * Print the variable within the while loop
 // * Do not use break to exit the loop
 
-fn main() {}
+//first attempt
+// fn main() {
+//     let mut a = 5; 
+//     while a <= 5 {
+//         println!("{:?}", a);
+//         a = a - 1;
+//     
+//     if a == 0 => {
+//         println!("DONZO");
+//         break;
+//     }
+// }
+
+fn main() {
+    let mut a = 5;
+    while a >= 1 {
+        println!("{:?}", a);
+        a = a - 1;
+    }
+    println!("DONZO");
+}
+

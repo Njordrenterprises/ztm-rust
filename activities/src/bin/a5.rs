@@ -9,4 +9,16 @@
 // * Print the variable within the loop statement
 // * Use break to exit the loop
 
-fn main() {}
+fn main() {
+let mut start = 1;
+    loop {
+        println!("{:?}", start);
+    start = start + 1;
+        if start == 5 {
+            break;
+        }
+        // start = start + 1; 
+        // class solution places increment here.  
+        // why?
+    }
+}
